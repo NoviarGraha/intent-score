@@ -31,7 +31,10 @@ public class MatchActivity extends AppCompatActivity {
         awayTeamName = findViewById(R.id.txt_away);
         logoHome = findViewById(R.id.home_logo);
         logoAway = findViewById(R.id.away_logo);
-
+        poinHome = findViewById(R.id.score_home);
+        poinAway = findViewById(R.id.score_away);
+        poinHome.setText("0");
+        poinAway.setText("0");
         skorHome = 0;
         skorAway = 0;
 
